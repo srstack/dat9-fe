@@ -355,7 +355,7 @@ Write-Host ""
 Write-Host "    2. Try filesystem commands"
 Write-Host "       drive9 fs ls :/" -ForegroundColor DarkGray
 Write-Host "       drive9 fs cp .\file.txt :/data/file.txt" -ForegroundColor DarkGray
-Write-Host "       drive9 fs grep \"search term\" /" -ForegroundColor DarkGray
+Write-Host '       drive9 fs grep "search term" /' -ForegroundColor DarkGray
 Write-Host "       drive9 fs find /data -name `"*.txt`"" -ForegroundColor DarkGray
 Write-Host ""
 Write-Host "    3. Mount locally"
